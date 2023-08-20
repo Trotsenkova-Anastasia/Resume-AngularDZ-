@@ -1,1 +1,6 @@
-<app-resume-comp></app-resume-comp>
+<button (click)="changeColor('white')" >white</button>
+      <button (click)="changeColor('black')">black</button>
+<div [ngSwitch]="color">
+    <div *ngSwitchCase="'white'" class="white-bg"><app-resume-comp></app-resume-comp></div>
+    <div *ngSwitchCase="'black'" class="black-bg"><app-resume-comp></app-resume-comp></div>
+</div>

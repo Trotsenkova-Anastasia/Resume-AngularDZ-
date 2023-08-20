@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'resume';
+  color:string ="";
+  changeColor(color:string)
+    {
+      this.color=color;
+    }
 }

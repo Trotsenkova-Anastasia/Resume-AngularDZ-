@@ -10,4 +10,6 @@ export class ResumeCompComponent {
   public Phone:string="065-454-45-45";
   public E_Mail:string="ans@gmail.com";
   public City:string="Хмельницький";
+  public birthday:string="02.03.04";
+
 }
